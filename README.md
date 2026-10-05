@@ -1,11 +1,31 @@
+# QRcode
 
-  # QR 코드 주문 웹사이트
+QR code ordering website built with Vite, React, and Firebase.
 
-  This is a code bundle for QR 코드 주문 웹사이트. The original project is available at https://www.figma.com/design/n6XzeV4rM9co2ClVBh7a6F/QR-%EC%BD%94%EB%93%9C-%EC%A3%BC%EB%AC%B8-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8.
+## Setup
 
-  ## Running the code
+Install dependencies:
 
-  Run `npm i` to install the dependencies.
+```bash
+npm install
+```
 
-  Run `npm run dev` to start the development server.
-  
+Create a local Firebase environment file:
+
+```bash
+cp .env.example .env.local
+```
+
+Fill `.env.local` with your Firebase web app config.
+
+## Development
+
+```bash
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
