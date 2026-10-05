@@ -16,7 +16,7 @@ Create a local Firebase environment file:
 cp .env.example .env.local
 ```
 
-env.local 파일에 파이어베이스 sdk 작성
+.env.local 파일에 파이어베이스 sdk 작성
 
 ## 수정 사항
 딜러화면에서 음식을 무료 추가하면 이용시간이 늘어나는 오류
